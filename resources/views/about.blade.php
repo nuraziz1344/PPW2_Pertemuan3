@@ -9,17 +9,17 @@
         <tr>
             <td>Nama</td>
             <td>:</td>
-            <td>Nur Aziz</td>
+            <td>{{ $name }}</td>
         </tr>
         <tr>
             <td>Email</td>
             <td>:</td>
-            <td>nuraziz@mail.ugm.ac.id</td>
+            <td>{{ $email }}</td>
         </tr>
         <tr>
             <td>Telepon</td>
             <td>:</td>
-            <td>081234567890</td>
+            <td>{{ $phone }}</td>
         </tr>
     </table>
 @endsection

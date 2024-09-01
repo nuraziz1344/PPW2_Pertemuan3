@@ -20,6 +20,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about', [
         'name' => 'Nur Aziz',
-        'email' => 'nuraziz@dummy.com'
+        'email' => 'nuraziz@dummy.com',
+        'phone' => '081234567890'
     ]);
 });
